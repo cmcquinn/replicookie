@@ -354,9 +354,6 @@
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
 
-  (polyline (pts (xy 215.9 13.97) (xy 215.9 264.16))
-    (stroke (width 0) (type dash) (color 0 0 0 0))
-  )
   (polyline (pts (xy 215.9 264.16) (xy 218.44 264.16))
     (stroke (width 0) (type dash) (color 0 0 0 0))
   )

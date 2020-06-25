@@ -1,4 +1,4 @@
-update=Thu 25 Jun 2020 02:58:49 PM MDT
+update=Thu 25 Jun 2020 03:54:04 PM MDT
 version=1
 last_client=kicad
 [general]
@@ -326,7 +326,7 @@ NetFmtName=
 SpiceAjustPassiveValues=0
 SubpartIdSeparator=0
 SubpartFirstId=65
-LabSize=75
+LabSize=100
 TextOffsetRatio=0.3
 LineThickness=6
 BusThickness=12
