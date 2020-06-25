@@ -1,4 +1,4 @@
-(kicad_sch (version 20200608) (host eeschema "5.99.0-unknown-18ab3c4~101~ubuntu20.04.1")
+(kicad_sch (version 20200608) (host eeschema "5.99.0-unknown-e376750~101~ubuntu20.04.1")
 
   (page 1 11)
 
@@ -655,10 +655,10 @@
     )
   )
 
-  (bus_alias "JTAG" (members "TDI" "TDO" "TCK" "TMS" "ZYNQ_~RST" "PGND"))
-  (bus_alias "I2C" (members "SDA" "SCL"))
-  (bus_alias "SWD" (members "MCU_~RST" "SWCLK" "SWDIO"))
   (bus_alias "INTERRUPT" (members "~INT1" "~INT2"))
+  (bus_alias "SWD" (members "MCU_~RST" "SWCLK" "SWDIO"))
+  (bus_alias "I2C" (members "SDA" "SCL"))
+  (bus_alias "JTAG" (members "TDI" "TDO" "TCK" "TMS" "ZYNQ_~RST" "PGND"))
   (junction (at 40.64 45.72))
   (junction (at 40.64 53.34))
   (junction (at 40.64 60.96))
