@@ -1,4 +1,5 @@
 (fp_lib_table
   (lib (name "Connector_Samtec_TFM")(type "KiCad")(uri "${KICAD_USER_TEMPLATE_DIR}/snickerdoodle-baseboard/Connector_Samtec_TFM.pretty")(options "")(descr ""))
   (lib (name "Snickerdoodle")(type "KiCad")(uri "${KICAD_USER_TEMPLATE_DIR}/snickerdoodle-baseboard/Snickerdoodle.pretty")(options "")(descr ""))
+  (lib (name "Package_DFN_QFN")(type "KiCad")(uri "${KIPRJMOD}/Package_DFN_QFN.pretty")(options "")(descr ""))
 )

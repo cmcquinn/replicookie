@@ -1,6 +1,6 @@
-(kicad_sch (version 20200608) (host eeschema "5.99.0-unknown-e376750~101~ubuntu20.04.1")
+(kicad_sch (version 20200618) (host eeschema "5.99.0-unknown-1463dd1~101~ubuntu20.04.1")
 
-  (page 1 12)
+  (page 1 13)
 
   (paper "B")
 
@@ -24,6 +24,17 @@
   )
   (bus (pts (xy 127 80.01) (xy 180.34 80.01))
     (stroke (width 0) (type solid) (color 0 0 0 0))
+  )
+
+  (sheet (at 63.5 114.3) (size 25.4 25.4)
+    (stroke (width 0.0006) (type solid) (color 132 0 132 1))
+    (fill (color 255 255 255 0.0000))    (uuid 0f4efdfd-e05f-4498-9f56-5655a2aa694e)
+    (property "Sheet name" "Ethernet" (id 0) (at 63.5 113.6643 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "ethernet.kicad_sch" (id 1) (at 63.5 140.2087 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
   )
 
   (sheet (at 298.45 58.42) (size 76.2 54.61)
@@ -149,6 +160,33 @@
     )
     (path "/655846c9-6d11-4b61-aecf-3ea94510aa57/6f10f941-6ce1-4fae-b2ff-12e416793bdf"
       (reference "Y?") (unit 1)
+    )
+    (path "/0f4efdfd-e05f-4498-9f56-5655a2aa694e/09222420-deb1-47da-a89a-a3718e0688de"
+      (reference "#PWR?") (unit 1)
+    )
+    (path "/0f4efdfd-e05f-4498-9f56-5655a2aa694e/70345d75-85d1-4479-9289-63ff77194944"
+      (reference "#PWR?") (unit 1)
+    )
+    (path "/0f4efdfd-e05f-4498-9f56-5655a2aa694e/13bdc7de-f7bb-48f1-9393-7b9d24d49504"
+      (reference "C?") (unit 1)
+    )
+    (path "/0f4efdfd-e05f-4498-9f56-5655a2aa694e/33e8e6b1-e1b7-4192-a255-807159066929"
+      (reference "C?") (unit 1)
+    )
+    (path "/0f4efdfd-e05f-4498-9f56-5655a2aa694e/7977214e-6c23-4caa-aa76-899d91ac7923"
+      (reference "C?") (unit 1)
+    )
+    (path "/0f4efdfd-e05f-4498-9f56-5655a2aa694e/9c8266e8-a016-4a17-bd1b-2a315f6fa00f"
+      (reference "C?") (unit 1)
+    )
+    (path "/0f4efdfd-e05f-4498-9f56-5655a2aa694e/b89450ea-9e26-4f8f-95e1-826be3763bc1"
+      (reference "J?") (unit 1)
+    )
+    (path "/0f4efdfd-e05f-4498-9f56-5655a2aa694e/3cb0239e-f196-4d4d-af08-55a9ee357373"
+      (reference "U?") (unit 1)
+    )
+    (path "/0f4efdfd-e05f-4498-9f56-5655a2aa694e/a8dabf45-4912-4328-a436-c73a5b30f97c"
+      (reference "U?") (unit 1)
     )
     (path "/a32a7713-aceb-431f-82b6-7899cc3ddd29/08fc91e0-d17b-4470-a036-ebc456aa575c"
       (reference "#PWR0101") (unit 1)

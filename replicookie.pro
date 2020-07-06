@@ -1,4 +1,4 @@
-update=Thu 25 Jun 2020 04:44:00 PM MDT
+update=Mon 06 Jul 2020 09:54:24 AM MDT
 version=1
 last_client=kicad
 [general]
@@ -12,8 +12,6 @@ NetIExt=net
 version=1
 LibDir=
 [eeschema/libraries]
-[LibeditFrame]
-version=1
 [ModEditFrame]
 version=1
 [pcbnew]
@@ -340,18 +338,21 @@ ERC_CheckBusDriverConflicts=1
 ERC_CheckBusEntryConflicts=1
 ERC_CheckBusToBusConflicts=1
 ERC_CheckBusToNetConflicts=1
+[LibeditFrame]
+version=1
 [SchematicFrame]
 version=1
 [sheetnames]
-1=b2dc68fa-d21b-4a7e-af05-3b1aa6e87cd2:
+1=dbc15f35-b00b-4eb0-9f1f-b1df017724ba:
 2=655846c9-6d11-4b61-aecf-3ea94510aa57:RealTimeClock
-3=a32a7713-aceb-431f-82b6-7899cc3ddd29:Snickerdoodle
-4=971e0851-a066-446a-b5f1-0785f648a61b:MotorDrivers
-5=181950cf-beee-43fe-8571-9ed4ec17b34b:Driver0
-6=6f55403d-4902-42f6-adb9-8a6393c8e1b6:Driver1
-7=7ca0db7d-f78e-455c-bdaf-4b064036b0f7:Driver2
-8=95009eea-c7a5-4a40-8ea3-ac70d337d508:Driver3
-9=2ea046c7-8857-48bb-96ac-54e57eae1f45:Driver4
-10=dad65ed1-b6cc-49d3-bc21-131408e3a266:Driver5
-11=a868f347-103c-405d-99d9-1978ab5c8368:Driver6
-12=8428d28e-cebe-482b-8d95-8110e6eb37c2:Driver7
+3=0f4efdfd-e05f-4498-9f56-5655a2aa694e:Ethernet
+4=a32a7713-aceb-431f-82b6-7899cc3ddd29:Snickerdoodle
+5=971e0851-a066-446a-b5f1-0785f648a61b:MotorDrivers
+6=181950cf-beee-43fe-8571-9ed4ec17b34b:Driver0
+7=6f55403d-4902-42f6-adb9-8a6393c8e1b6:Driver1
+8=7ca0db7d-f78e-455c-bdaf-4b064036b0f7:Driver2
+9=95009eea-c7a5-4a40-8ea3-ac70d337d508:Driver3
+10=2ea046c7-8857-48bb-96ac-54e57eae1f45:Driver4
+11=dad65ed1-b6cc-49d3-bc21-131408e3a266:Driver5
+12=a868f347-103c-405d-99d9-1978ab5c8368:Driver6
+13=8428d28e-cebe-482b-8d95-8110e6eb37c2:Driver7

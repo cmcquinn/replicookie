@@ -1,6 +1,6 @@
-(kicad_sch (version 20200608) (host eeschema "5.99.0-unknown-e376750~101~ubuntu20.04.1")
+(kicad_sch (version 20200618) (host eeschema "5.99.0-unknown-1463dd1~101~ubuntu20.04.1")
 
-  (page 8 12)
+  (page 1 13)
 
   (paper "A4")
 
@@ -426,12 +426,18 @@
   )
 
   (bus_alias "DRV_CTRL" (members "STEP" "DIR" "~EN"))
-  (junction (at 124.46 99.06))
-  (junction (at 162.56 96.52))
+  (junction (at 124.46 99.06) (diameter 0) (color 0 0 0 0))
+  (junction (at 162.56 96.52) (diameter 0) (color 0 0 0 0))
 
-  (bus_entry (at 166.37 46.99) (size 2.54 -2.54))
-  (bus_entry (at 166.37 49.53) (size 2.54 -2.54))
-  (bus_entry (at 166.37 52.07) (size 2.54 -2.54))
+  (bus_entry (at 166.37 46.99) (size 2.54 -2.54)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+  )
+  (bus_entry (at 166.37 49.53) (size 2.54 -2.54)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+  )
+  (bus_entry (at 166.37 52.07) (size 2.54 -2.54)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+  )
 
   (wire (pts (xy 116.84 63.5) (xy 116.84 64.77))
     (stroke (width 0) (type solid) (color 0 0 0 0))

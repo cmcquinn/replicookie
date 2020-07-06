@@ -1,6 +1,6 @@
-(kicad_sch (version 20200608) (host eeschema "5.99.0-unknown-e376750~101~ubuntu20.04.1")
+(kicad_sch (version 20200618) (host eeschema "5.99.0-unknown-af8f05d~101~ubuntu20.04.1")
 
-  (page 3 12)
+  (page 1 13)
 
   (paper "B")
 
@@ -14,15 +14,19 @@
   (lib_symbols
   )
 
-  (junction (at 85.09 78.74))
-  (junction (at 85.09 107.95))
-  (junction (at 85.09 146.05))
-  (junction (at 290.83 78.74))
-  (junction (at 290.83 107.95))
-  (junction (at 290.83 146.05))
+  (junction (at 85.09 78.74) (diameter 0) (color 0 0 0 0))
+  (junction (at 85.09 107.95) (diameter 0) (color 0 0 0 0))
+  (junction (at 85.09 146.05) (diameter 0) (color 0 0 0 0))
+  (junction (at 290.83 78.74) (diameter 0) (color 0 0 0 0))
+  (junction (at 290.83 107.95) (diameter 0) (color 0 0 0 0))
+  (junction (at 290.83 146.05) (diameter 0) (color 0 0 0 0))
 
-  (bus_entry (at 59.69 81.28) (size 2.54 -2.54))
-  (bus_entry (at 62.23 81.28) (size 2.54 2.54))
+  (bus_entry (at 59.69 81.28) (size 2.54 -2.54)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+  )
+  (bus_entry (at 62.23 81.28) (size 2.54 2.54)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+  )
 
   (wire (pts (xy 62.23 78.74) (xy 85.09 78.74))
     (stroke (width 0) (type solid) (color 0 0 0 0))
