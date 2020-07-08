@@ -21,6 +21,12 @@
 | [Hardware Design Checklist](http://ww1.microchip.com/downloads/en/DeviceDoc/KSZ9031RNX-HW-Design-Checklist-00003391.pdf) | Reference Design |
 | [Optimized Power Scheme](http://ww1.microchip.com/downloads/en/Appnotes/ANLAN206-UNG.pdf)                                | Reference Design |
 
+## Switching Regulator with Integrated Inductor, 1.2V fixed output
+
+| Document                                                                                                                                                         | Type      |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------- |
+| [MIC33050 Datasheet](http://ww1.microchip.com/downloads/en/DeviceDoc/MIC33050-4MHz-Internal-Inductor-PWM-Buck-Power-Module-with-HyperLight-Load-DS20006120A.pdf) | Datasheet |
+
 ## RJ45 Jack with Integrated Magnetics
 
 <!-- <img src=https://media.digikey.com/Photos/Pulse%20Photos/JK0654219NL.jpg width=20%/> -->
@@ -28,4 +34,3 @@
 | Document                                                                                        | Type      |
 | ----------------------------------------------------------------------------------------------- | --------- |
 | [JK Series Datasheet](https://media.digikey.com/pdf/Data%20Sheets/Pulse%20PDFs/JK%20Series.pdf) | Datasheet |
-

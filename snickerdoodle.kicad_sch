@@ -1,6 +1,6 @@
 (kicad_sch (version 20200618) (host eeschema "5.99.0-unknown-1463dd1~101~ubuntu20.04.1")
 
-  (page 1 13)
+  (page 4 13)
 
   (paper "A4")
 
@@ -655,9 +655,9 @@
     )
   )
 
+  (bus_alias "SWD" (members "MCU_~RST" "SWCLK" "SWDIO"))
   (bus_alias "JTAG" (members "TDI" "TDO" "TCK" "TMS" "ZYNQ_~RST" "PGND"))
   (bus_alias "I2C" (members "SDA" "SCL"))
-  (bus_alias "SWD" (members "MCU_~RST" "SWCLK" "SWDIO"))
   (bus_alias "INTERRUPT" (members "~INT1" "~INT2"))
   (junction (at 40.64 45.72) (diameter 0) (color 0 0 0 0))
   (junction (at 40.64 53.34) (diameter 0) (color 0 0 0 0))
