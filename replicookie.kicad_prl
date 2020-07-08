@@ -1,5 +1,18 @@
 {
   "board": {
+    "selection_filter": {
+      "dimensions": true,
+      "footprints": true,
+      "graphics": true,
+      "keepouts": true,
+      "lockedItems": true,
+      "otherItems": true,
+      "pads": true,
+      "text": true,
+      "tracks": true,
+      "vias": true,
+      "zones": true
+    },
     "visible_items": [
       0,
       1,
@@ -31,12 +44,9 @@
       28,
       29,
       30,
-      31,
-      32,
-      33,
-      34
+      31
     ],
-    "visible_layers": "7ffff_ffffffff"
+    "visible_layers": "1ffff_80000001"
   },
   "meta": {
     "filename": "replicookie.kicad_prl",
