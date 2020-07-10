@@ -1,14 +1,13 @@
 (kicad_sch (version 20200618) (host eeschema "5.99.0-unknown-77313e4~101~ubuntu20.04.1")
 
-  (page 1 13)
+  (page 1 14)
 
   (paper "B")
 
   (title_block
-    (title "Snickerdoodle Baseboard")
+    (title "Replicookie")
     (date "2020-06-24")
     (rev "1.0")
-    (company "Drawn by: Cameron McQuinn")
     (comment 1 "Drawn by: Cameron McQuinn")
   )
 
@@ -16,26 +15,29 @@
   )
 
 
-  (bus (pts (xy 101.6 69.85) (xy 127 69.85))
+  (bus (pts (xy 105.41 62.23) (xy 127 62.23))
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
-  (bus (pts (xy 127 69.85) (xy 127 80.01))
+  (bus (pts (xy 127 62.23) (xy 127 80.01))
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
   (bus (pts (xy 127 80.01) (xy 180.34 80.01))
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
 
-  (sheet (at 63.5 114.3) (size 25.4 25.4)
+  (sheet (at 72.39 82.55) (size 25.4 13.97)
     (stroke (width 0.0006) (type solid) (color 132 0 132 1))
     (fill (color 255 255 255 0.0000))    (uuid 0f4efdfd-e05f-4498-9f56-5655a2aa694e)
-    (property "Sheet name" "Ethernet" (id 0) (at 63.5 113.6643 0)
+    (property "Sheet name" "Ethernet" (id 0) (at 72.39 81.9143 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheet file" "ethernet.kicad_sch" (id 1) (at 63.5 140.2087 0)
+    (property "Sheet file" "ethernet.kicad_sch" (id 1) (at 72.39 97.79 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
-    (pin "ETHERNET{RGMII}" input (at 88.9 123.19 0)
+    (pin "ETHERNET{RGMII}" input (at 97.79 87.63 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (pin "~RESET" input (at 97.79 91.44 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
   )
@@ -78,16 +80,16 @@
     )
   )
 
-  (sheet (at 63.5 63.5) (size 38.1 12.7)
+  (sheet (at 67.31 55.88) (size 38.1 12.7)
     (stroke (width 0.0006) (type solid) (color 132 0 132 1))
     (fill (color 255 255 255 0.0000))    (uuid 655846c9-6d11-4b61-aecf-3ea94510aa57)
-    (property "Sheet name" "RealTimeClock" (id 0) (at 63.5 62.8643 0)
+    (property "Sheet name" "RealTimeClock" (id 0) (at 67.31 55.2443 0)
       (effects (font (size 2.54 2.54)) (justify left bottom))
     )
-    (property "Sheet file" "RTC.kicad_sch" (id 1) (at 63.5 77.47 0)
+    (property "Sheet file" "RTC.kicad_sch" (id 1) (at 67.31 69.85 0)
       (effects (font (size 2.54 2.54)) (justify left top))
     )
-    (pin "{I2C}" bidirectional (at 101.6 69.85 0)
+    (pin "{I2C}" bidirectional (at 105.41 62.23 0)
       (effects (font (size 2.54 2.54)) (justify right))
     )
   )
@@ -136,6 +138,20 @@
     )
     (pin "ZYNQ_I2C5{I2C}" bidirectional (at 180.34 105.41 180)
       (effects (font (size 2.54 2.54)) (justify left))
+    )
+  )
+
+  (sheet (at 72.39 104.14) (size 25.4 12.7)
+    (stroke (width 0.0006) (type solid) (color 132 0 132 1))
+    (fill (color 255 255 255 0.0000))    (uuid 5305719f-293c-4859-8d79-7c90ef688f80)
+    (property "Sheet name" "USB" (id 0) (at 72.39 103.5043 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "USB.kicad_sch" (id 1) (at 72.39 117.3487 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (pin "USB{ULPI}" input (at 97.79 107.95 0)
+      (effects (font (size 1.27 1.27)) (justify right))
     )
   )
 
@@ -266,6 +282,9 @@
     (path "/0f4efdfd-e05f-4498-9f56-5655a2aa694e/09222420-deb1-47da-a89a-a3718e0688de"
       (reference "#PWR0331") (unit 1)
     )
+    (path "/0f4efdfd-e05f-4498-9f56-5655a2aa694e/cc2ce420-7535-4224-9f53-5d81b2e77819"
+      (reference "#PWR0332") (unit 1)
+    )
     (path "/0f4efdfd-e05f-4498-9f56-5655a2aa694e/a41a30a7-3c00-4db9-945e-ded3cec11ac6"
       (reference "C301") (unit 1)
     )
@@ -350,10 +369,10 @@
     (path "/0f4efdfd-e05f-4498-9f56-5655a2aa694e/13bdc7de-f7bb-48f1-9393-7b9d24d49504"
       (reference "C328") (unit 1)
     )
-    (path "/0f4efdfd-e05f-4498-9f56-5655a2aa694e/7b1a44ba-1680-4634-a561-975ef8a568bf"
+    (path "/0f4efdfd-e05f-4498-9f56-5655a2aa694e/c3dcb01b-40bc-469a-a3ad-e1dafcdc97bf"
       (reference "D301") (unit 1)
     )
-    (path "/0f4efdfd-e05f-4498-9f56-5655a2aa694e/066f67a6-2acb-4729-aa95-77345fa36f36"
+    (path "/0f4efdfd-e05f-4498-9f56-5655a2aa694e/7b9c1687-7630-4bd6-b3a9-31d14d5b39ec"
       (reference "D302") (unit 1)
     )
     (path "/0f4efdfd-e05f-4498-9f56-5655a2aa694e/990bdd0f-7edb-4c23-9189-702606cc1739"
@@ -421,6 +440,60 @@
     )
     (path "/0f4efdfd-e05f-4498-9f56-5655a2aa694e/28392559-6910-415c-87f3-862c9b428658"
       (reference "X301") (unit 1)
+    )
+    (path "/5305719f-293c-4859-8d79-7c90ef688f80/40c22255-a29b-483b-a8d9-6f5cd62e9c99"
+      (reference "#PWR0416") (unit 1)
+    )
+    (path "/5305719f-293c-4859-8d79-7c90ef688f80/a3dc2c13-e212-4716-83d3-270c88374b15"
+      (reference "#PWR0417") (unit 1)
+    )
+    (path "/5305719f-293c-4859-8d79-7c90ef688f80/5f678ffb-f0cd-4462-b52c-b25fd889c286"
+      (reference "#PWR0418") (unit 1)
+    )
+    (path "/5305719f-293c-4859-8d79-7c90ef688f80/b2c03226-09f1-489e-a1e8-c3aa424d7834"
+      (reference "#PWR0419") (unit 1)
+    )
+    (path "/5305719f-293c-4859-8d79-7c90ef688f80/43344dad-baa7-4d17-9950-73be152d0a52"
+      (reference "#PWR0420") (unit 1)
+    )
+    (path "/5305719f-293c-4859-8d79-7c90ef688f80/101485aa-4b3e-4545-827b-4e9f9033f054"
+      (reference "#PWR0421") (unit 1)
+    )
+    (path "/5305719f-293c-4859-8d79-7c90ef688f80/336db8c8-dcb6-4902-b86c-8e589b17812a"
+      (reference "#PWR0422") (unit 1)
+    )
+    (path "/5305719f-293c-4859-8d79-7c90ef688f80/19a8ee14-1da8-4ad6-90e8-d4746647b290"
+      (reference "#PWR0423") (unit 1)
+    )
+    (path "/5305719f-293c-4859-8d79-7c90ef688f80/666cb924-b6b3-4d29-a690-9f39bc70f790"
+      (reference "C401") (unit 1)
+    )
+    (path "/5305719f-293c-4859-8d79-7c90ef688f80/6e6ef244-425c-4e57-8fc4-9b1901676610"
+      (reference "C402") (unit 1)
+    )
+    (path "/5305719f-293c-4859-8d79-7c90ef688f80/371d575f-6782-4c52-ac9f-a33c79a38cf3"
+      (reference "C403") (unit 1)
+    )
+    (path "/5305719f-293c-4859-8d79-7c90ef688f80/578cf62d-88d0-4cc5-9df7-a4a5fc71a658"
+      (reference "C404") (unit 1)
+    )
+    (path "/5305719f-293c-4859-8d79-7c90ef688f80/8ca313a0-161a-4029-8ba9-8ab382560567"
+      (reference "C405") (unit 1)
+    )
+    (path "/5305719f-293c-4859-8d79-7c90ef688f80/202429c4-8088-40ab-b092-d8b07b346b78"
+      (reference "C406") (unit 1)
+    )
+    (path "/5305719f-293c-4859-8d79-7c90ef688f80/c9ead347-2847-438d-92b2-370130e7556c"
+      (reference "R401") (unit 1)
+    )
+    (path "/5305719f-293c-4859-8d79-7c90ef688f80/fee2918f-c5a5-4c16-9140-d1198bfe33bc"
+      (reference "R402") (unit 1)
+    )
+    (path "/5305719f-293c-4859-8d79-7c90ef688f80/9718e817-7e5e-487b-8f6b-fc1b3c42636e"
+      (reference "U401") (unit 1)
+    )
+    (path "/5305719f-293c-4859-8d79-7c90ef688f80/500f21ab-f388-4c86-90c0-2a9ff801fa06"
+      (reference "U402") (unit 1)
     )
     (path "/a32a7713-aceb-431f-82b6-7899cc3ddd29/98a5fdfe-900b-4e5e-a7b9-3aae14bcaa54"
       (reference "#PWR0401") (unit 1)

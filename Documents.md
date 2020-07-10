@@ -15,22 +15,32 @@
 
 <!-- <img src=https://www.microchip.com/_images/products/medium/041233a1fdc57dbe34369f35a1d2452f.png width=20%> -->
 
-| Document                                                                                                                 | Type             |
-| ------------------------------------------------------------------------------------------------------------------------ | ---------------- |
-| [KSZ9031RNX Datasheet](http://ww1.microchip.com/downloads/en/DeviceDoc/00002117F.pdf)                                    | Datasheet        |
-| [Hardware Design Checklist](http://ww1.microchip.com/downloads/en/DeviceDoc/KSZ9031RNX-HW-Design-Checklist-00003391.pdf) | Reference Design |
-| [Optimized Power Scheme](http://ww1.microchip.com/downloads/en/Appnotes/ANLAN206-UNG.pdf)                                | Reference Design |
+| Document                                                                                                                 |
+| ------------------------------------------------------------------------------------------------------------------------ |
+| [KSZ9031RNX Datasheet](http://ww1.microchip.com/downloads/en/DeviceDoc/00002117F.pdf)                                    |
+| [Hardware Design Checklist](http://ww1.microchip.com/downloads/en/DeviceDoc/KSZ9031RNX-HW-Design-Checklist-00003391.pdf) |
+| [Optimized Power Scheme](http://ww1.microchip.com/downloads/en/Appnotes/ANLAN206-UNG.pdf)                                |
 
-## Switching Regulator with Integrated Inductor, 1.2V fixed output
+## MIC33050 Regulator
 
-| Document                                                                                                                                                         | Type      |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------- |
-| [MIC33050 Datasheet](http://ww1.microchip.com/downloads/en/DeviceDoc/MIC33050-4MHz-Internal-Inductor-PWM-Buck-Power-Module-with-HyperLight-Load-DS20006120A.pdf) | Datasheet |
+| Document                                                                                                                                                         |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [MIC33050 Datasheet](http://ww1.microchip.com/downloads/en/DeviceDoc/MIC33050-4MHz-Internal-Inductor-PWM-Buck-Power-Module-with-HyperLight-Load-DS20006120A.pdf) |
 
-## RJ45 Jack with Integrated Magnetics
+## RJ45 Jack
 
 <!-- <img src=https://media.digikey.com/Photos/Pulse%20Photos/JK0654219NL.jpg width=20%/> -->
 
-| Document                                                                                        | Type      |
-| ----------------------------------------------------------------------------------------------- | --------- |
-| [JK Series Datasheet](https://media.digikey.com/pdf/Data%20Sheets/Pulse%20PDFs/JK%20Series.pdf) | Datasheet |
+| Document                                                                                        |
+| ----------------------------------------------------------------------------------------------- |
+| [JK Series Datasheet](https://media.digikey.com/pdf/Data%20Sheets/Pulse%20PDFs/JK%20Series.pdf) |
+
+## USB ULPI Transceiver
+
+| Document                                                                                                                            |
+| ----------------------------------------------------------------------------------------------------------------------------------- |
+| [USB334x Datasheet](http://ww1.microchip.com/downloads/en/DeviceDoc/USB334x-Data-Sheet-DS00002646A.pdf)                             |
+| [USB Device Design Checklist](http://ww1.microchip.com/downloads/en/Appnotes/00001863B.pdf)                                         |
+| [ULPI Design Guide](http://ww1.microchip.com/downloads/en/Appnotes/AN19.17-Application-Note-DS00002944A.pdf)                        |
+| [USB334x USB Transceiver Layout Guidelines](http://ww1.microchip.com/downloads/en/Appnotes/AN22.3-Application-Note-DS00002971A.pdf) |
+| [USB3343 Evaluation Board Schematic](http://ww1.microchip.com/downloads/en/DeviceDoc/SCH_USB3343-XTAL.pdf)                          |
