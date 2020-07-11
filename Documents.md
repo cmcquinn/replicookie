@@ -44,3 +44,9 @@
 | [ULPI Design Guide](http://ww1.microchip.com/downloads/en/Appnotes/AN19.17-Application-Note-DS00002944A.pdf)                        |
 | [USB334x USB Transceiver Layout Guidelines](http://ww1.microchip.com/downloads/en/Appnotes/AN22.3-Application-Note-DS00002971A.pdf) |
 | [USB3343 Evaluation Board Schematic](http://ww1.microchip.com/downloads/en/DeviceDoc/SCH_USB3343-XTAL.pdf)                          |
+
+## USB 2.0 Hi-Speed Hub Controller
+
+| Document                                             |
+| ---------------------------------------------------- |
+| [USB251x Datasheet](USB 2.0 Hi-Speed Hub Controller) |
