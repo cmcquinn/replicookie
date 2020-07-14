@@ -1,5 +1,9 @@
 {
   "board": {
+    "active_layer": 31,
+    "active_layer_preset": "",
+    "hidden_nets": [],
+    "high_contrast_mode": 0,
     "selection_filter": {
       "dimensions": true,
       "footprints": true,
@@ -46,7 +50,7 @@
       30,
       31
     ],
-    "visible_layers": "1ffff_80000001"
+    "visible_layers": "3ffff_80000007"
   },
   "meta": {
     "filename": "replicookie.kicad_prl",
