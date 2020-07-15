@@ -47,6 +47,12 @@
 
 ## USB 2.0 Hi-Speed Hub Controller
 
-| Document                                             |
-| ---------------------------------------------------- |
-| [USB251x Datasheet](USB 2.0 Hi-Speed Hub Controller) |
+| Document                                                                           |
+| ---------------------------------------------------------------------------------- |
+| [USB251x Datasheet](http://ww1.microchip.com/downloads/en/DeviceDoc/00001692C.pdf) |
+
+## Dual High Speed USB to Multipurpose UART/FIFO
+
+| Document                                                                                      |
+| --------------------------------------------------------------------------------------------- |
+| [FT4232H Datasheet](https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT2232H.pdf) |
