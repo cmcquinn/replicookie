@@ -20,6 +20,7 @@
 | [KSZ9031RNX Datasheet](http://ww1.microchip.com/downloads/en/DeviceDoc/00002117F.pdf)                                    |
 | [Hardware Design Checklist](http://ww1.microchip.com/downloads/en/DeviceDoc/KSZ9031RNX-HW-Design-Checklist-00003391.pdf) |
 | [Optimized Power Scheme](http://ww1.microchip.com/downloads/en/Appnotes/ANLAN206-UNG.pdf)                                |
+| [Gigabit Ethernet Design Guide](http://ww1.microchip.com/downloads/en/Appnotes/00002054A.pdf)                            |
 
 ## MIC33050 Regulator
 

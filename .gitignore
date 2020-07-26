@@ -27,4 +27,8 @@ fp-info-cache
 *.xml
 *.csv
 
+# Plugin log files
+*.log
+
+# Project backups
 replicookie-backups/**
