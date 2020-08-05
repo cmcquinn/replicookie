@@ -1,6 +1,6 @@
-(kicad_sch (version 20200714) (host eeschema "5.99.0-unknown-bf445c1~102~ubuntu20.04.1")
+(kicad_sch (version 20200714) (host eeschema "5.99.0-unknown-a146cd9~102~ubuntu20.04.1")
 
-  (page 1 15)
+  (page 0 15)
 
   (paper "B")
 
@@ -60,35 +60,59 @@
           (stroke (width 0.1524)) (fill (type none))
         )
         (polyline
-          (pts (xy -1.27 -10.16) (xy -0.508 -10.16))
+          (pts
+            (xy -1.27 -10.16)
+            (xy -0.508 -10.16)
+          )
           (stroke (width 0.1524)) (fill (type none))
         )
         (polyline
-          (pts (xy -1.27 -7.62) (xy -0.508 -7.62))
+          (pts
+            (xy -1.27 -7.62)
+            (xy -0.508 -7.62)
+          )
           (stroke (width 0.1524)) (fill (type none))
         )
         (polyline
-          (pts (xy -1.27 -5.08) (xy -0.508 -5.08))
+          (pts
+            (xy -1.27 -5.08)
+            (xy -0.508 -5.08)
+          )
           (stroke (width 0.1524)) (fill (type none))
         )
         (polyline
-          (pts (xy -1.27 -2.54) (xy -0.508 -2.54))
+          (pts
+            (xy -1.27 -2.54)
+            (xy -0.508 -2.54)
+          )
           (stroke (width 0.1524)) (fill (type none))
         )
         (polyline
-          (pts (xy -1.27 0) (xy -0.508 0))
+          (pts
+            (xy -1.27 0)
+            (xy -0.508 0)
+          )
           (stroke (width 0.1524)) (fill (type none))
         )
         (polyline
-          (pts (xy -1.27 2.54) (xy -0.508 2.54))
+          (pts
+            (xy -1.27 2.54)
+            (xy -0.508 2.54)
+          )
           (stroke (width 0.1524)) (fill (type none))
         )
         (polyline
-          (pts (xy -1.27 5.08) (xy -0.508 5.08))
+          (pts
+            (xy -1.27 5.08)
+            (xy -0.508 5.08)
+          )
           (stroke (width 0.1524)) (fill (type none))
         )
         (polyline
-          (pts (xy -1.27 7.62) (xy -0.508 7.62))
+          (pts
+            (xy -1.27 7.62)
+            (xy -0.508 7.62)
+          )
           (stroke (width 0.1524)) (fill (type none))
         )
         (pin passive line (at -5.08 7.62 0) (length 3.81)
@@ -156,35 +180,59 @@
           (stroke (width 0.254)) (fill (type background))
         )
         (polyline
-          (pts (xy -0.5334 -4.7498) (xy 0.3302 -5.588))
+          (pts
+            (xy -0.5334 -4.7498)
+            (xy 0.3302 -5.588)
+          )
           (stroke (width 0.1524)) (fill (type none))
         )
         (polyline
-          (pts (xy -0.5334 -2.2098) (xy 0.3302 -3.048))
+          (pts
+            (xy -0.5334 -2.2098)
+            (xy 0.3302 -3.048)
+          )
           (stroke (width 0.1524)) (fill (type none))
         )
         (polyline
-          (pts (xy -0.5334 0.3302) (xy 0.3302 -0.508))
+          (pts
+            (xy -0.5334 0.3302)
+            (xy 0.3302 -0.508)
+          )
           (stroke (width 0.1524)) (fill (type none))
         )
         (polyline
-          (pts (xy -0.5334 2.8702) (xy 0.3302 2.032))
+          (pts
+            (xy -0.5334 2.8702)
+            (xy 0.3302 2.032)
+          )
           (stroke (width 0.1524)) (fill (type none))
         )
         (polyline
-          (pts (xy -0.3556 -4.572) (xy 0.508 -5.4102))
+          (pts
+            (xy -0.3556 -4.572)
+            (xy 0.508 -5.4102)
+          )
           (stroke (width 0.1524)) (fill (type none))
         )
         (polyline
-          (pts (xy -0.3556 -2.032) (xy 0.508 -2.8702))
+          (pts
+            (xy -0.3556 -2.032)
+            (xy 0.508 -2.8702)
+          )
           (stroke (width 0.1524)) (fill (type none))
         )
         (polyline
-          (pts (xy -0.3556 0.508) (xy 0.508 -0.3302))
+          (pts
+            (xy -0.3556 0.508)
+            (xy 0.508 -0.3302)
+          )
           (stroke (width 0.1524)) (fill (type none))
         )
         (polyline
-          (pts (xy -0.3556 3.048) (xy 0.508 2.2098))
+          (pts
+            (xy -0.3556 3.048)
+            (xy 0.508 2.2098)
+          )
           (stroke (width 0.1524)) (fill (type none))
         )
         (pin passive line (at -5.08 2.54 0) (length 3.81)
@@ -302,15 +350,24 @@
           (stroke (width 0.508)) (fill (type none))
         )
         (polyline
-          (pts (xy -2.032 0.762) (xy 2.032 0.762))
+          (pts
+            (xy -2.032 0.762)
+            (xy 2.032 0.762)
+          )
           (stroke (width 0.508)) (fill (type none))
         )
         (polyline
-          (pts (xy -1.778 2.286) (xy -0.762 2.286))
+          (pts
+            (xy -1.778 2.286)
+            (xy -0.762 2.286)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy -1.27 1.778) (xy -1.27 2.794))
+          (pts
+            (xy -1.27 1.778)
+            (xy -1.27 2.794)
+          )
           (stroke (width 0)) (fill (type none))
         )
       )
@@ -349,14 +406,22 @@
       )
       (symbol "R_Small_US_1_1"
         (polyline
-          (pts (xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143)
-               (xy 0 -1.524)
+          (pts
+            (xy 0 0)
+            (xy 1.016 -0.381)
+            (xy 0 -0.762)
+            (xy -1.016 -1.143)
+            (xy 0 -1.524)
           )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381)
-               (xy 0 0)
+          (pts
+            (xy 0 1.524)
+            (xy 1.016 1.143)
+            (xy 0 0.762)
+            (xy -1.016 0.381)
+            (xy 0 0)
           )
           (stroke (width 0)) (fill (type none))
         )
@@ -391,15 +456,24 @@
       )
       (symbol "+24V_0_1"
         (polyline
-          (pts (xy -0.762 1.27) (xy 0 2.54))
+          (pts
+            (xy -0.762 1.27)
+            (xy 0 2.54)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy 0 0) (xy 0 2.54))
+          (pts
+            (xy 0 0)
+            (xy 0 2.54)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy 0 2.54) (xy 0.762 1.27))
+          (pts
+            (xy 0 2.54)
+            (xy 0.762 1.27)
+          )
           (stroke (width 0)) (fill (type none))
         )
       )
@@ -431,15 +505,24 @@
       )
       (symbol "+3V3_0_1"
         (polyline
-          (pts (xy -0.762 1.27) (xy 0 2.54))
+          (pts
+            (xy -0.762 1.27)
+            (xy 0 2.54)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy 0 0) (xy 0 2.54))
+          (pts
+            (xy 0 0)
+            (xy 0 2.54)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy 0 2.54) (xy 0.762 1.27))
+          (pts
+            (xy 0 2.54)
+            (xy 0.762 1.27)
+          )
           (stroke (width 0)) (fill (type none))
         )
       )
@@ -471,8 +554,13 @@
       )
       (symbol "GND_0_1"
         (polyline
-          (pts (xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54)
-               (xy -1.27 -1.27) (xy 0 -1.27)
+          (pts
+            (xy 0 0)
+            (xy 0 -1.27)
+            (xy 1.27 -1.27)
+            (xy 0 -2.54)
+            (xy -1.27 -1.27)
+            (xy 0 -1.27)
           )
           (stroke (width 0)) (fill (type none))
         )
@@ -484,47 +572,12 @@
         )
       )
     )
-    (symbol "power:GNDD" (power) (pin_names (offset 0))
-      (property "Reference" "#PWR" (id 0) (at 0 -6.35 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "GNDD" (id 1) (at 0 -3.175 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (id 2) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (id 3) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "power-flag" (id 4) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"GNDD\" , digital ground" (id 5) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "GNDD_0_1"
-        (rectangle (start -1.27 -1.524) (end 1.27 -2.032)
-          (stroke (width 0.254)) (fill (type outline))
-        )
-        (polyline
-          (pts (xy 0 0) (xy 0 -1.524))
-          (stroke (width 0)) (fill (type none))
-        )
-      )
-      (symbol "GNDD_1_1"
-        (pin power_in line (at 0 0 270) (length 0) hide
-          (name "GNDD" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
   )
 
   (bus_alias "DRV_CTRL" (members "STEP" "DIR" "~EN"))
-  (junction (at 189.23 96.52) (diameter 0) (color 0 0 0 0))
-  (junction (at 199.39 167.64) (diameter 0) (color 0 0 0 0))
-  (junction (at 220.98 157.48) (diameter 0) (color 0 0 0 0))
+  (junction (at 189.23 96.52) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 199.39 167.64) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 220.98 157.48) (diameter 1.016) (color 0 0 0 0))
 
   (bus_entry (at 229.87 78.74) (size 2.54 -2.54)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
@@ -824,21 +877,6 @@
     )
   )
 
-  (symbol (lib_id "power:GNDD") (at 199.39 171.45 0)
-    (in_bom yes) (on_board yes)
-    (uuid "0aff6984-7bf2-48f8-835a-114ac07d7605")
-    (property "Reference" "#PWR01504" (id 0) (at 199.39 177.8 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GNDD" (id 1) (at 199.4408 175.3934 0))
-    (property "Footprint" "" (id 2) (at 199.39 171.45 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 199.39 171.45 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-
   (symbol (lib_id "power:GND") (at 189.23 106.68 0)
     (in_bom yes) (on_board yes)
     (uuid "0581f713-b69b-4bd2-bfab-bbb8f49852dd")
@@ -850,6 +888,21 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 189.23 106.68 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 199.39 171.45 0)
+    (in_bom yes) (on_board yes)
+    (uuid "87164b49-aaef-4aed-bd25-de320e8212ad")
+    (property "Reference" "#PWR0129" (id 0) (at 199.39 177.8 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (id 1) (at 199.5043 175.7744 0))
+    (property "Footprint" "" (id 2) (at 199.39 171.45 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 199.39 171.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )

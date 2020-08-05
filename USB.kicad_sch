@@ -1,6 +1,6 @@
-(kicad_sch (version 20200714) (host eeschema "5.99.0-unknown-bf445c1~102~ubuntu20.04.1")
+(kicad_sch (version 20200714) (host eeschema "5.99.0-unknown-a146cd9~102~ubuntu20.04.1")
 
-  (page 1 15)
+  (page 5 15)
 
   (paper "B")
 
@@ -36,16 +36,28 @@
       )
       (symbol "74LVC1G07_0_1"
         (polyline
-          (pts (xy -2.54 -0.635) (xy -1.27 -0.635))
+          (pts
+            (xy -2.54 -0.635)
+            (xy -1.27 -0.635)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy -3.81 2.54) (xy -3.81 -2.54) (xy 2.54 0) (xy -3.81 2.54))
+          (pts
+            (xy -3.81 2.54)
+            (xy -3.81 -2.54)
+            (xy 2.54 0)
+            (xy -3.81 2.54)
+          )
           (stroke (width 0.254)) (fill (type none))
         )
         (polyline
-          (pts (xy -1.905 0.635) (xy -2.54 0) (xy -1.905 -0.635) (xy -1.27 0)
-               (xy -1.905 0.635)
+          (pts
+            (xy -1.905 0.635)
+            (xy -2.54 0)
+            (xy -1.905 -0.635)
+            (xy -1.27 0)
+            (xy -1.905 0.635)
           )
           (stroke (width 0)) (fill (type none))
         )
@@ -119,21 +131,39 @@
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy -3.175 2.159) (xy -2.54 2.159) (xy -1.27 3.429) (xy -0.635 3.429))
+          (pts
+            (xy -3.175 2.159)
+            (xy -2.54 2.159)
+            (xy -1.27 3.429)
+            (xy -0.635 3.429)
+          )
           (stroke (width 0.254)) (fill (type none))
         )
         (polyline
-          (pts (xy -2.54 2.159) (xy -1.905 2.159) (xy -1.27 0.889) (xy 0 0.889))
+          (pts
+            (xy -2.54 2.159)
+            (xy -1.905 2.159)
+            (xy -1.27 0.889)
+            (xy 0 0.889)
+          )
           (stroke (width 0.254)) (fill (type none))
         )
         (polyline
-          (pts (xy 0.635 2.794) (xy 0.635 1.524) (xy 1.905 2.159) (xy 0.635 2.794))
+          (pts
+            (xy 0.635 2.794)
+            (xy 0.635 1.524)
+            (xy 1.905 2.159)
+            (xy 0.635 2.794)
+          )
           (stroke (width 0.254)) (fill (type outline))
         )
       )
       (symbol "USB_A_1_1"
         (polyline
-          (pts (xy -1.905 2.159) (xy 0.635 2.159))
+          (pts
+            (xy -1.905 2.159)
+            (xy 0.635 2.159)
+          )
           (stroke (width 0.254)) (fill (type none))
         )
         (pin power_in line (at 7.62 5.08 180) (length 2.54)
@@ -182,11 +212,17 @@
       )
       (symbol "C_0_1"
         (polyline
-          (pts (xy -2.032 -0.762) (xy 2.032 -0.762))
+          (pts
+            (xy -2.032 -0.762)
+            (xy 2.032 -0.762)
+          )
           (stroke (width 0.508)) (fill (type none))
         )
         (polyline
-          (pts (xy -2.032 0.762) (xy 2.032 0.762))
+          (pts
+            (xy -2.032 0.762)
+            (xy 2.032 0.762)
+          )
           (stroke (width 0.508)) (fill (type none))
         )
       )
@@ -228,15 +264,24 @@
           (stroke (width 0.508)) (fill (type none))
         )
         (polyline
-          (pts (xy -2.032 0.762) (xy 2.032 0.762))
+          (pts
+            (xy -2.032 0.762)
+            (xy 2.032 0.762)
+          )
           (stroke (width 0.508)) (fill (type none))
         )
         (polyline
-          (pts (xy -1.778 2.286) (xy -0.762 2.286))
+          (pts
+            (xy -1.778 2.286)
+            (xy -0.762 2.286)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy -1.27 1.778) (xy -1.27 2.794))
+          (pts
+            (xy -1.27 1.778)
+            (xy -1.27 2.794)
+          )
           (stroke (width 0)) (fill (type none))
         )
       )
@@ -275,11 +320,17 @@
       )
       (symbol "C_Small_0_1"
         (polyline
-          (pts (xy -1.524 -0.508) (xy 1.524 -0.508))
+          (pts
+            (xy -1.524 -0.508)
+            (xy 1.524 -0.508)
+          )
           (stroke (width 0.3302)) (fill (type none))
         )
         (polyline
-          (pts (xy -1.524 0.508) (xy 1.524 0.508))
+          (pts
+            (xy -1.524 0.508)
+            (xy 1.524 0.508)
+          )
           (stroke (width 0.3048)) (fill (type none))
         )
       )
@@ -318,14 +369,22 @@
       )
       (symbol "R_Small_US_1_1"
         (polyline
-          (pts (xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143)
-               (xy 0 -1.524)
+          (pts
+            (xy 0 0)
+            (xy 1.016 -0.381)
+            (xy 0 -0.762)
+            (xy -1.016 -1.143)
+            (xy 0 -1.524)
           )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381)
-               (xy 0 0)
+          (pts
+            (xy 0 1.524)
+            (xy 1.016 1.143)
+            (xy 0 0.762)
+            (xy -1.016 0.381)
+            (xy 0 0)
           )
           (stroke (width 0)) (fill (type none))
         )
@@ -363,28 +422,46 @@
       )
       (symbol "R_US_0_1"
         (polyline
-          (pts (xy 0 -2.286) (xy 0 -2.54))
-          (stroke (width 0)) (fill (type none))
-        )
-        (polyline
-          (pts (xy 0 2.286) (xy 0 2.54))
-          (stroke (width 0)) (fill (type none))
-        )
-        (polyline
-          (pts (xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905)
-               (xy 0 -2.286)
+          (pts
+            (xy 0 -2.286)
+            (xy 0 -2.54)
           )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381)
-               (xy 0 -0.762)
+          (pts
+            (xy 0 2.286)
+            (xy 0 2.54)
           )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143)
-               (xy 0 0.762)
+          (pts
+            (xy 0 -0.762)
+            (xy 1.016 -1.143)
+            (xy 0 -1.524)
+            (xy -1.016 -1.905)
+            (xy 0 -2.286)
+          )
+          (stroke (width 0)) (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 0.762)
+            (xy 1.016 0.381)
+            (xy 0 0)
+            (xy -1.016 -0.381)
+            (xy 0 -0.762)
+          )
+          (stroke (width 0)) (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 2.286)
+            (xy 1.016 1.905)
+            (xy 0 1.524)
+            (xy -1.016 1.143)
+            (xy 0 0.762)
           )
           (stroke (width 0)) (fill (type none))
         )
@@ -735,9 +812,16 @@
           (stroke (width 0.254)) (fill (type background))
         )
         (polyline
-          (pts (xy -4.445 2.54) (xy -3.81 2.54) (xy -3.81 3.81) (xy -3.175 3.81)
-               (xy -3.175 2.54) (xy -2.54 2.54) (xy -2.54 3.81) (xy -1.905 3.81)
-               (xy -1.905 2.54)
+          (pts
+            (xy -4.445 2.54)
+            (xy -3.81 2.54)
+            (xy -3.81 3.81)
+            (xy -3.175 3.81)
+            (xy -3.175 2.54)
+            (xy -2.54 2.54)
+            (xy -2.54 3.81)
+            (xy -1.905 3.81)
+            (xy -1.905 2.54)
           )
           (stroke (width 0)) (fill (type none))
         )
@@ -780,15 +864,24 @@
       )
       (symbol "+1V8_0_1"
         (polyline
-          (pts (xy -0.762 1.27) (xy 0 2.54))
+          (pts
+            (xy -0.762 1.27)
+            (xy 0 2.54)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy 0 0) (xy 0 2.54))
+          (pts
+            (xy 0 0)
+            (xy 0 2.54)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy 0 2.54) (xy 0.762 1.27))
+          (pts
+            (xy 0 2.54)
+            (xy 0.762 1.27)
+          )
           (stroke (width 0)) (fill (type none))
         )
       )
@@ -820,15 +913,24 @@
       )
       (symbol "+3V3_0_1"
         (polyline
-          (pts (xy -0.762 1.27) (xy 0 2.54))
+          (pts
+            (xy -0.762 1.27)
+            (xy 0 2.54)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy 0 0) (xy 0 2.54))
+          (pts
+            (xy 0 0)
+            (xy 0 2.54)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy 0 2.54) (xy 0.762 1.27))
+          (pts
+            (xy 0 2.54)
+            (xy 0.762 1.27)
+          )
           (stroke (width 0)) (fill (type none))
         )
       )
@@ -860,8 +962,13 @@
       )
       (symbol "GND_0_1"
         (polyline
-          (pts (xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54)
-               (xy -1.27 -1.27) (xy 0 -1.27)
+          (pts
+            (xy 0 0)
+            (xy 0 -1.27)
+            (xy 1.27 -1.27)
+            (xy 0 -2.54)
+            (xy -1.27 -1.27)
+            (xy 0 -1.27)
           )
           (stroke (width 0)) (fill (type none))
         )
@@ -876,19 +983,19 @@
   )
 
   (bus_alias "ULPI" (members "DATA[7..0]" "CLK" "STP" "DIR" "NXT"))
-  (junction (at 45.72 83.82) (diameter 0) (color 0 0 0 0))
-  (junction (at 45.72 125.73) (diameter 0) (color 0 0 0 0))
-  (junction (at 60.96 72.39) (diameter 0) (color 0 0 0 0))
-  (junction (at 60.96 114.3) (diameter 0) (color 0 0 0 0))
-  (junction (at 143.51 99.06) (diameter 0) (color 0 0 0 0))
-  (junction (at 156.21 99.06) (diameter 0) (color 0 0 0 0))
-  (junction (at 205.74 121.92) (diameter 0) (color 0 0 0 0))
-  (junction (at 212.09 116.84) (diameter 0) (color 0 0 0 0))
-  (junction (at 252.73 148.59) (diameter 0) (color 0 0 0 0))
+  (junction (at 45.72 83.82) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 45.72 125.73) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 60.96 72.39) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 60.96 114.3) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 143.51 99.06) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 156.21 99.06) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 205.74 121.92) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 212.09 116.84) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 252.73 148.59) (diameter 1.016) (color 0 0 0 0))
 
-  (no_connect (at 273.05 132.08))
   (no_connect (at 179.07 134.62))
   (no_connect (at 273.05 119.38))
+  (no_connect (at 273.05 132.08))
 
   (bus_entry (at 134.62 116.84) (size 2.54 2.54)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
@@ -1236,19 +1343,22 @@
   (bus (pts (xy 134.62 115.57) (xy 134.62 119.38))
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
-  (bus (pts (xy 134.62 119.38) (xy 134.62 124.46))
+  (bus (pts (xy 134.62 119.38) (xy 134.62 121.92))
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
-  (bus (pts (xy 134.62 124.46) (xy 134.62 129.54))
+  (bus (pts (xy 134.62 121.92) (xy 134.62 127))
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
-  (bus (pts (xy 134.62 129.54) (xy 134.62 134.62))
+  (bus (pts (xy 134.62 127) (xy 134.62 132.08))
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
-  (bus (pts (xy 134.62 134.62) (xy 134.62 139.7))
+  (bus (pts (xy 134.62 132.08) (xy 134.62 137.16))
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
-  (bus (pts (xy 134.62 139.7) (xy 134.62 144.78))
+  (bus (pts (xy 134.62 137.16) (xy 134.62 142.24))
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+  )
+  (bus (pts (xy 134.62 142.24) (xy 134.62 144.78))
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
   (bus (pts (xy 262.89 154.94) (xy 264.16 154.94))
@@ -1331,7 +1441,7 @@
   (label "VDD33" (at 186.69 129.54 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
   )
-  (label "~RESET" (at 187.96 116.84 180)
+  (label "~ULPI_RESET" (at 193.04 116.84 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
   )
   (label "REFCLK" (at 193.04 142.24 180)
@@ -1344,6 +1454,9 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
   )
   (label "DP" (at 260.35 111.76 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+  )
+  (label "~HUB_RESET" (at 260.35 116.84 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
   )
   (label "HUB_CLK" (at 260.35 129.54 0)

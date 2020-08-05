@@ -32,3 +32,6 @@ fp-info-cache
 
 # Project backups
 replicookie-backups/**
+
+# compressed zip archives
+*.zip

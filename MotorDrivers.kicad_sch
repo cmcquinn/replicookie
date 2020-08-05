@@ -1,6 +1,6 @@
-(kicad_sch (version 20200714) (host eeschema "5.99.0-unknown-bf445c1~102~ubuntu20.04.1")
+(kicad_sch (version 20200714) (host eeschema "5.99.0-unknown-a146cd9~102~ubuntu20.04.1")
 
-  (page 1 15)
+  (page 7 15)
 
   (paper "B")
 
@@ -14,12 +14,12 @@
   (lib_symbols
   )
 
-  (junction (at 85.09 78.74) (diameter 0) (color 0 0 0 0))
-  (junction (at 85.09 107.95) (diameter 0) (color 0 0 0 0))
-  (junction (at 85.09 146.05) (diameter 0) (color 0 0 0 0))
-  (junction (at 290.83 78.74) (diameter 0) (color 0 0 0 0))
-  (junction (at 290.83 107.95) (diameter 0) (color 0 0 0 0))
-  (junction (at 290.83 146.05) (diameter 0) (color 0 0 0 0))
+  (junction (at 85.09 78.74) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 85.09 107.95) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 85.09 146.05) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 290.83 78.74) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 290.83 107.95) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 290.83 146.05) (diameter 1.016) (color 0 0 0 0))
 
   (bus_entry (at 59.69 81.28) (size 2.54 -2.54)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
@@ -157,7 +157,8 @@
 
   (sheet (at 91.44 60.96) (size 43.18 12.7)
     (stroke (width 0.0006) (type solid) (color 132 0 132 1))
-    (fill (color 255 255 255 0.0000))    (uuid 181950cf-beee-43fe-8571-9ed4ec17b34b)
+    (fill (color 255 255 255 0.0000))
+    (uuid 181950cf-beee-43fe-8571-9ed4ec17b34b)
     (property "Sheet name" "Driver0" (id 0) (at 91.44 60.3243 0)
       (effects (font (size 2.54 2.54)) (justify left bottom))
     )
@@ -174,7 +175,8 @@
 
   (sheet (at 91.44 99.06) (size 43.18 12.7)
     (stroke (width 0.0006) (type solid) (color 132 0 132 1))
-    (fill (color 255 255 255 0.0000))    (uuid 6f55403d-4902-42f6-adb9-8a6393c8e1b6)
+    (fill (color 255 255 255 0.0000))
+    (uuid 6f55403d-4902-42f6-adb9-8a6393c8e1b6)
     (property "Sheet name" "Driver1" (id 0) (at 91.44 98.4243 0)
       (effects (font (size 2.54 2.54)) (justify left bottom))
     )
@@ -191,7 +193,8 @@
 
   (sheet (at 91.44 137.16) (size 43.18 12.7)
     (stroke (width 0.0006) (type solid) (color 132 0 132 1))
-    (fill (color 255 255 255 0.0000))    (uuid 7ca0db7d-f78e-455c-bdaf-4b064036b0f7)
+    (fill (color 255 255 255 0.0000))
+    (uuid 7ca0db7d-f78e-455c-bdaf-4b064036b0f7)
     (property "Sheet name" "Driver2" (id 0) (at 91.44 136.5243 0)
       (effects (font (size 2.54 2.54)) (justify left bottom))
     )
@@ -208,7 +211,8 @@
 
   (sheet (at 91.44 170.18) (size 43.18 12.7)
     (stroke (width 0.0006) (type solid) (color 132 0 132 1))
-    (fill (color 255 255 255 0.0000))    (uuid 95009eea-c7a5-4a40-8ea3-ac70d337d508)
+    (fill (color 255 255 255 0.0000))
+    (uuid 95009eea-c7a5-4a40-8ea3-ac70d337d508)
     (property "Sheet name" "Driver3" (id 0) (at 91.44 169.5443 0)
       (effects (font (size 2.54 2.54)) (justify left bottom))
     )
@@ -225,7 +229,8 @@
 
   (sheet (at 297.18 60.96) (size 43.18 12.7)
     (stroke (width 0.0006) (type solid) (color 132 0 132 1))
-    (fill (color 255 255 255 0.0000))    (uuid 2ea046c7-8857-48bb-96ac-54e57eae1f45)
+    (fill (color 255 255 255 0.0000))
+    (uuid 2ea046c7-8857-48bb-96ac-54e57eae1f45)
     (property "Sheet name" "Driver4" (id 0) (at 297.18 60.3243 0)
       (effects (font (size 2.54 2.54)) (justify left bottom))
     )
@@ -242,7 +247,8 @@
 
   (sheet (at 297.18 99.06) (size 43.18 12.7)
     (stroke (width 0.0006) (type solid) (color 132 0 132 1))
-    (fill (color 255 255 255 0.0000))    (uuid dad65ed1-b6cc-49d3-bc21-131408e3a266)
+    (fill (color 255 255 255 0.0000))
+    (uuid dad65ed1-b6cc-49d3-bc21-131408e3a266)
     (property "Sheet name" "Driver5" (id 0) (at 297.18 98.4243 0)
       (effects (font (size 2.54 2.54)) (justify left bottom))
     )
@@ -259,7 +265,8 @@
 
   (sheet (at 297.18 137.16) (size 43.18 12.7)
     (stroke (width 0.0006) (type solid) (color 132 0 132 1))
-    (fill (color 255 255 255 0.0000))    (uuid a868f347-103c-405d-99d9-1978ab5c8368)
+    (fill (color 255 255 255 0.0000))
+    (uuid a868f347-103c-405d-99d9-1978ab5c8368)
     (property "Sheet name" "Driver6" (id 0) (at 297.18 136.5243 0)
       (effects (font (size 2.54 2.54)) (justify left bottom))
     )
@@ -276,7 +283,8 @@
 
   (sheet (at 297.18 170.18) (size 43.18 12.7)
     (stroke (width 0.0006) (type solid) (color 132 0 132 1))
-    (fill (color 255 255 255 0.0000))    (uuid 8428d28e-cebe-482b-8d95-8110e6eb37c2)
+    (fill (color 255 255 255 0.0000))
+    (uuid 8428d28e-cebe-482b-8d95-8110e6eb37c2)
     (property "Sheet name" "Driver7" (id 0) (at 297.18 169.5443 0)
       (effects (font (size 2.54 2.54)) (justify left bottom))
     )
