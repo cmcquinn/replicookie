@@ -37,7 +37,7 @@
         "silk_text_upright": true,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.508
+          "min_clearance": 0.254
         }
       },
       "diff_pair_dimensions": [
@@ -45,11 +45,6 @@
           "gap": 0.25,
           "via_gap": 0.25,
           "width": 0.2
-        },
-        {
-          "gap": 0.0,
-          "via_gap": 0.0,
-          "width": 0.0
         }
       ],
       "drc_exclusions": [],
@@ -338,7 +333,7 @@
       },
       {
         "bus_width": 6.0,
-        "clearance": 0.2,
+        "clearance": 0.127,
         "diff_pair_gap": 0.127,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.1016,
@@ -356,7 +351,7 @@
           "TXRXD+",
           "TXRXD-"
         ],
-        "track_width": 0.25,
+        "track_width": 0.1016,
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6.0
@@ -435,12 +430,13 @@
     "page_layout_descr_file": "",
     "plot_directory": "",
     "spice_adjust_passive_values": false,
+    "spice_external_command": "spice \"%I\"",
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
   "sheets": [
     [
-      "7b149a24-169a-4efe-ac63-dd299ae14a4f",
+      "d230d71b-72d5-449e-9935-e22a4dca3fe3",
       ""
     ],
     [
