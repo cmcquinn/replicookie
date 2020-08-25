@@ -1,4 +1,4 @@
-(kicad_sch (version 20200714) (host eeschema "5.99.0-unknown-9b6ade6b1~102~ubuntu20.04.1")
+(kicad_sch (version 20200714) (host eeschema "5.99.0-unknown-829316fad~102~ubuntu20.04.1")
 
   (page 1 15)
 
@@ -12,6 +12,32 @@
   )
 
   (lib_symbols
+    (symbol "Mechanical:MountingHole"
+      (property "Reference" "H" (id 0) (at 0 5.08 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "MountingHole" (id 1) (at 0 3.175 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (id 2) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (id 3) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "mounting hole" (id 4) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Mounting Hole without connection" (id 5) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "MountingHole*" (id 6) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "MountingHole_0_1"
+        (circle (center 0 0) (radius 1.27) (stroke (width 1.27)) (fill (type none)))
+      )
+    )
   )
 
 
@@ -76,6 +102,74 @@
   (text "Fabrication Notes:\nJLC2313 Stackup\nControlled Impedance\n1.2mm thickness\n4 layers"
     (at 171.45 252.73 0)
     (effects (font (size 1.27 1.27)) (justify right bottom))
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 330.2 179.07 0) (unit 1)
+    (in_bom yes) (on_board yes)
+    (uuid "4fcb72b1-94ad-4f9e-a1b6-871b6bdaf265")
+    (property "Reference" "H101" (id 0) (at 332.7401 177.9206 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (id 1) (at 332.7401 180.2193 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_3mm" (id 2) (at 330.2 179.07 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 330.2 179.07 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 330.2 186.69 0) (unit 1)
+    (in_bom yes) (on_board yes)
+    (uuid "79e38670-fe99-47dd-b318-626db112cfbe")
+    (property "Reference" "H102" (id 0) (at 332.7401 185.5406 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (id 1) (at 332.7401 187.8393 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_3mm" (id 2) (at 330.2 186.69 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 330.2 186.69 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 330.2 194.31 0) (unit 1)
+    (in_bom yes) (on_board yes)
+    (uuid "220912b1-38f2-416c-97a4-1b7da36758e6")
+    (property "Reference" "H103" (id 0) (at 332.7401 193.1606 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (id 1) (at 332.7401 195.4593 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_3mm" (id 2) (at 330.2 194.31 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 330.2 194.31 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 330.2 201.93 0) (unit 1)
+    (in_bom yes) (on_board yes)
+    (uuid "61c1711c-87e8-499d-84a4-2912eb77474d")
+    (property "Reference" "H104" (id 0) (at 332.7401 200.7806 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (id 1) (at 332.7401 203.0793 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_3mm" (id 2) (at 330.2 201.93 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 330.2 201.93 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
 
   (sheet (at 76.2 124.46) (size 25.4 13.97)
@@ -250,6 +344,18 @@
   )
 
   (symbol_instances
+    (path "/4fcb72b1-94ad-4f9e-a1b6-871b6bdaf265"
+      (reference "H101") (unit 1)
+    )
+    (path "/79e38670-fe99-47dd-b318-626db112cfbe"
+      (reference "H102") (unit 1)
+    )
+    (path "/220912b1-38f2-416c-97a4-1b7da36758e6"
+      (reference "H103") (unit 1)
+    )
+    (path "/61c1711c-87e8-499d-84a4-2912eb77474d"
+      (reference "H104") (unit 1)
+    )
     (path "/655846c9-6d11-4b61-aecf-3ea94510aa57/a31059e0-2106-4ba5-9ab1-2330ed94e840"
       (reference "#PWR0201") (unit 1)
     )
@@ -324,9 +430,6 @@
     )
     (path "/b7ae1606-d3c7-49bb-8bec-a97be30f1474/72dc037e-3194-4a49-afc6-3ecb300bcab3"
       (reference "#PWR0315") (unit 1)
-    )
-    (path "/b7ae1606-d3c7-49bb-8bec-a97be30f1474/1eb3edb7-c24e-4257-a7cb-9d9790ff9b32"
-      (reference "#PWR0316") (unit 1)
     )
     (path "/b7ae1606-d3c7-49bb-8bec-a97be30f1474/c23447e9-6a50-4056-9567-1f3529286499"
       (reference "#PWR0317") (unit 1)
@@ -411,12 +514,6 @@
     )
     (path "/b7ae1606-d3c7-49bb-8bec-a97be30f1474/a01114c1-1019-4046-8ad0-22d438c4c538"
       (reference "R307") (unit 1)
-    )
-    (path "/b7ae1606-d3c7-49bb-8bec-a97be30f1474/624de630-9813-478e-83b0-cfacbf331f59"
-      (reference "R308") (unit 1)
-    )
-    (path "/b7ae1606-d3c7-49bb-8bec-a97be30f1474/925c9630-7fd5-4ae3-9bdc-a3ec73f948d2"
-      (reference "R309") (unit 1)
     )
     (path "/b7ae1606-d3c7-49bb-8bec-a97be30f1474/4e4da4ed-3360-4dd7-a008-abd97309b8b4"
       (reference "U301") (unit 1)

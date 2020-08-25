@@ -56,4 +56,4 @@
 
 | Document                                                                                      |
 | --------------------------------------------------------------------------------------------- |
-| [FT4232H Datasheet](https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT2232H.pdf) |
+| [FT4232H Datasheet](https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT4232H.pdf) |
