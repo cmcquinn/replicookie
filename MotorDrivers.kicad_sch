@@ -1,4 +1,4 @@
-(kicad_sch (version 20200714) (host eeschema "5.99.0-unknown-829316fad~102~ubuntu20.04.1")
+(kicad_sch (version 20200828) (generator eeschema)
 
   (page 7 15)
 
@@ -85,7 +85,10 @@
   (wire (pts (xy 290.83 179.07) (xy 297.18 179.07))
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
-  (bus (pts (xy 58.42 81.28) (xy 62.23 81.28))
+  (bus (pts (xy 58.42 81.28) (xy 59.69 81.28))
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+  )
+  (bus (pts (xy 59.69 81.28) (xy 62.23 81.28))
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
   (bus (pts (xy 81.28 64.77) (xy 91.44 64.77))
