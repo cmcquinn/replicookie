@@ -426,7 +426,7 @@
       (property "ki_description" "Ferrite bead, small symbol" (id 5) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_fp_filters" "Inductor_*\nL_*\n*Ferrite*" (id 6) (at 0 0 0)
+      (property "ki_fp_filters" "Inductor_* L_* *Ferrite*" (id 6) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "Ferrite_Bead_Small_0_1"
@@ -617,7 +617,7 @@
       (property "ki_description" "Hi Speed Quad Channel USB UART/FIFO, LQFP/QFN-64" (id 5) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_fp_filters" "QFN*1EP*9x9mm*P0.5mm*\nLQFP*10x10mm*P0.5mm*" (id 6) (at 0 0 0)
+      (property "ki_fp_filters" "QFN*1EP*9x9mm*P0.5mm* LQFP*10x10mm*P0.5mm*" (id 6) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "FT4232H_0_1"

@@ -630,7 +630,7 @@
       (reference "C402") (unit 1) (value "560p") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/0f4efdfd-e05f-4498-9f56-5655a2aa694e/7be40d76-5c2e-4353-9562-edb7954796bc"
-      (reference "C403") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_0603_1608Metric")
+      (reference "C403") (unit 1) (value "4.7u") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/0f4efdfd-e05f-4498-9f56-5655a2aa694e/23834493-0234-47a7-b495-2bd00e782a12"
       (reference "C404") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_0603_1608Metric")
@@ -728,6 +728,9 @@
     (path "/0f4efdfd-e05f-4498-9f56-5655a2aa694e/b89450ea-9e26-4f8f-95e1-826be3763bc1"
       (reference "J401") (unit 1) (value "JK0654219") (footprint "Connector_RJ:RJ45_Pulse_JK0654219NL_Horizontal")
     )
+    (path "/0f4efdfd-e05f-4498-9f56-5655a2aa694e/3f98b41b-dcb9-4384-9b46-e5d6f9912245"
+      (reference "L401") (unit 1) (value "1uH") (footprint "Inductor_SMD:L_0805_2012Metric")
+    )
     (path "/0f4efdfd-e05f-4498-9f56-5655a2aa694e/4d1afae0-421f-4105-924b-769915595531"
       (reference "R401") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
@@ -755,8 +758,8 @@
     (path "/0f4efdfd-e05f-4498-9f56-5655a2aa694e/c853c170-907e-43af-aaeb-a4fc1b2d0ba3"
       (reference "R409") (unit 1) (value "75") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
-    (path "/0f4efdfd-e05f-4498-9f56-5655a2aa694e/4ef79eb2-f972-498a-bcb9-ad57a2049d90"
-      (reference "U401") (unit 1) (value "MIC33050-4YHL") (footprint "Package_DFN_QFN:HDFN-12-1EP_3x3mm_P0.5mm_EP1.8x1.125mm")
+    (path "/0f4efdfd-e05f-4498-9f56-5655a2aa694e/231be371-6880-4b4b-b001-73c9ea927a9c"
+      (reference "U401") (unit 1) (value "MIC23050-4YML") (footprint "Package_DFN_QFN:Micrel_MLF-8-1EP_2x2mm_P0.5mm_EP0.8x1.3mm_ThermalVias")
     )
     (path "/0f4efdfd-e05f-4498-9f56-5655a2aa694e/3cb0239e-f196-4d4d-af08-55a9ee357373"
       (reference "U402") (unit 1) (value "KSZ9031RNXCA") (footprint "Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.15x5.15mm")
