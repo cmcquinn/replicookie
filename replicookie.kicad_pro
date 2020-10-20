@@ -363,7 +363,16 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "100 Ohm",
-        "nets": [],
+        "nets": [
+          "/Ethernet/TXRXA+",
+          "/Ethernet/TXRXA-",
+          "/Ethernet/TXRXB+",
+          "/Ethernet/TXRXB-",
+          "/Ethernet/TXRXC+",
+          "/Ethernet/TXRXC-",
+          "/Ethernet/TXRXD+",
+          "/Ethernet/TXRXD-"
+        ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.1016,
