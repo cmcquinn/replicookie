@@ -1,0 +1,3 @@
+[filter "kicad_sch"]
+        clean = "sed -E 's/#PWR[0-9]+/#PWR?/'"
+        smudge = cat
