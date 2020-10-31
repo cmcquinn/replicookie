@@ -877,10 +877,10 @@
     )
   )
 
-  (bus_alias "INTERRUPT" (members "~INT1" "~INT2"))
-  (bus_alias "SWD" (members "MCU_~RST" "SWCLK" "SWDIO"))
-  (bus_alias "I2C" (members "SDA" "SCL"))
   (bus_alias "JTAG" (members "TDI" "TDO" "TCK" "TMS" "ZYNQ_~RST" "PGND"))
+  (bus_alias "I2C" (members "SDA" "SCL"))
+  (bus_alias "SWD" (members "MCU_~RST" "SWCLK" "SWDIO"))
+  (bus_alias "INTERRUPT" (members "~INT1" "~INT2"))
   (junction (at 48.26 45.72) (diameter 1.016) (color 0 0 0 0))
   (junction (at 48.26 53.34) (diameter 1.016) (color 0 0 0 0))
   (junction (at 48.26 60.96) (diameter 1.016) (color 0 0 0 0))
