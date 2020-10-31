@@ -38,55 +38,6 @@
         (circle (center 0 0) (radius 1.27) (stroke (width 1.27)) (fill (type none)))
       )
     )
-    (symbol "power:+5V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "+5V" (id 1) (at 0 3.556 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (id 2) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (id 3) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "power-flag" (id 4) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"+5V\"" (id 5) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "+5V_0_1"
-        (polyline
-          (pts
-            (xy -0.762 1.27)
-            (xy 0 2.54)
-          )
-          (stroke (width 0)) (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 2.54)
-          )
-          (stroke (width 0)) (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 2.54)
-            (xy 0.762 1.27)
-          )
-          (stroke (width 0)) (fill (type none))
-        )
-      )
-      (symbol "+5V_1_1"
-        (pin power_in line (at 0 0 90) (length 0) hide
-          (name "+5V" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
   )
 
 
@@ -151,21 +102,6 @@
   (text "Fabrication Notes:\nJLC2313 Stackup\nControlled Impedance\n1.2mm thickness\n4 layers"
     (at 171.45 252.73 0)
     (effects (font (size 1.27 1.27)) (justify right bottom))
-  )
-
-  (symbol (lib_id "power:+5V") (at 163.83 39.37 0) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid "0f4e0b16-c107-4c86-8506-f1c823799608")
-    (property "Reference" "#PWR?" (id 0) (at 163.83 43.18 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+5V" (id 1) (at 164.1983 35.0456 0))
-    (property "Footprint" "" (id 2) (at 163.83 39.37 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 163.83 39.37 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
   )
 
   (symbol (lib_id "Mechanical:MountingHole") (at 330.2 179.07 0) (unit 1)
@@ -426,9 +362,6 @@
   )
 
   (symbol_instances
-    (path "/0f4e0b16-c107-4c86-8506-f1c823799608"
-      (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
-    )
     (path "/4fcb72b1-94ad-4f9e-a1b6-871b6bdaf265"
       (reference "H101") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_3mm")
     )
@@ -927,11 +860,11 @@
     (path "/5305719f-293c-4859-8d79-7c90ef688f80/b7edd984-09dd-4d37-bd3d-3f511858c6ed"
       (reference "C509") (unit 1) (value "0.1u") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
-    (path "/5305719f-293c-4859-8d79-7c90ef688f80/4e522741-6c77-4ea1-9479-b0cb5e26d300"
-      (reference "J501") (unit 1) (value "USB_A") (footprint "Connector_USB:USB_A_Molex_67643_Horizontal")
+    (path "/5305719f-293c-4859-8d79-7c90ef688f80/2eb001d7-b8ff-4f5d-a386-48a3ada75db1"
+      (reference "J501") (unit 1) (value "USB_A_Stacked") (footprint "Connector_USB:USB_A_Wuerth_61400826021_Horizontal_Stacked")
     )
-    (path "/5305719f-293c-4859-8d79-7c90ef688f80/d1a24b99-cc1b-4358-b01e-299d86f69e80"
-      (reference "J502") (unit 1) (value "USB_A") (footprint "Connector_USB:USB_A_Molex_67643_Horizontal")
+    (path "/5305719f-293c-4859-8d79-7c90ef688f80/31a98117-4d47-417a-942d-5607945aa8b8"
+      (reference "J502") (unit 1) (value "USB_A_Stacked") (footprint "Connector_USB:USB_A_Wuerth_61400826021_Horizontal_Stacked")
     )
     (path "/5305719f-293c-4859-8d79-7c90ef688f80/c9ead347-2847-438d-92b2-370130e7556c"
       (reference "R501") (unit 1) (value "8.06k 1%") (footprint "Resistor_SMD:R_0603_1608Metric")
