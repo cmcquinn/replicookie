@@ -3552,7 +3552,7 @@
   (hierarchical_label "ETHERNET{RGMII}" (shape bidirectional) (at 109.22 121.92 180)
     (effects (font (size 1.27 1.27)) (justify right))
   )
-  (hierarchical_label "~RESET" (shape input) (at 285.75 157.48 0)
+  (hierarchical_label "~RESET~_IN" (shape input) (at 285.75 157.48 0)
     (effects (font (size 1.27 1.27)) (justify left))
   )
 
