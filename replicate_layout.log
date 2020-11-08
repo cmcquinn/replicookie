@@ -1,5 +1,0 @@
-11-08 00:16:41 replicate_layout.action_replicate_layout 305:Plugin executed on: 'linux'
-11-08 00:16:41 replicate_layout.action_replicate_layout 306:Plugin executed with python version: '3.8.5 (default, Jul 28 2020, 12:59:40) \n[GCC 9.3.0]'
-11-08 00:16:41 replicate_layout.action_replicate_layout 307:KiCad build version: 5.99.0-unknown-7bc83b8c4~104~ubuntu20.04.1
-11-08 00:16:41 replicate_layout.action_replicate_layout 308:Replicate layout plugin version: 68 started
-11-08 00:16:41 replicate_layout.action_replicate_layout 319:wx top level windows: WindowList: [<wx._core.Frame object at 0x7f10542155e0>, <wx._core.Frame object at 0x7f1054215c10>, <wx._core.Frame object at 0x7f1054215ca0>, <wx._core.Frame object at 0x7f1054215d30>, <wx._core.Frame object at 0x7f1054215dc0>, <wx._core.Frame object at 0x7f1054215e50>, <length_stats.action_length_stats.LengthStatsDialog object at 0x7f107508a160>, <length_stats.action_length_stats.LengthStatsDialog object at 0x7f1054200820>, <length_stats.action_length_stats.LengthStatsDialog object at 0x7f10542008b0>, <length_stats.action_length_stats.LengthStatsDialog object at 0x7f1054215550>]
