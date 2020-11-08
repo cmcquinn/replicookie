@@ -1,29 +1,5 @@
-07-14 18:24:25 replicate_layout.action_replicate_layout 305:Plugin executed on: 'linux'
-07-14 18:24:25 replicate_layout.action_replicate_layout 306:Plugin executed with python version: '3.8.2 (default, Apr 27 2020, 15:53:34) \n[GCC 9.3.0]'
-07-14 18:24:25 replicate_layout.action_replicate_layout 307:KiCad build version: 5.99.0-unknown-7340c97~102~ubuntu20.04.1
-07-14 18:24:25 replicate_layout.action_replicate_layout 308:Replicate layout plugin version: 67 started
-07-14 18:24:25 replicate_layout.action_replicate_layout 340:Preparing replicator with J701 as a reference
-07-14 18:24:25 replicate_layout.replicatelayout 216:getting project hierarchy from schematics
-07-14 18:24:25 replicate_layout.action_replicate_layout 353:Fatal error when making an instance of replicator
-Traceback (most recent call last):
-  File "/home/cameron/.kicad/scripting/plugins/replicate_layout/action_replicate_layout.py", line 343, in Run
-    replicator = replicatelayout.Replicator(board)
-  File "/home/cameron/.kicad/scripting/plugins/replicate_layout/replicatelayout.py", line 217, in __init__
-    # test if sch file exist
-  File "/home/cameron/.kicad/scripting/plugins/replicate_layout/replicatelayout.py", line 175, in find_all_sch_files
-    file_path = os.path.abspath(subsheet_path)
-  File "/home/cameron/.kicad/scripting/plugins/replicate_layout/replicatelayout.py", line 122, in extract_subsheets
-    sheet_indices = []
-  File "/usr/lib/python3.8/re.py", line 246, in finditer
-    return _compile(pattern, flags).finditer(string)
-  File "/usr/lib/python3.8/re.py", line 302, in _compile
-    p = sre_compile.compile(pattern, flags)
-  File "/usr/lib/python3.8/sre_compile.py", line 764, in compile
-    p = sre_parse.parse(p, flags)
-  File "/usr/lib/python3.8/sre_parse.py", line 948, in parse
-    p = _parse_sub(source, state, flags & SRE_FLAG_VERBOSE, 0)
-  File "/usr/lib/python3.8/sre_parse.py", line 443, in _parse_sub
-    itemsappend(_parse(source, state, verbose, nested + 1,
-  File "/usr/lib/python3.8/sre_parse.py", line 836, in _parse
-    raise source.error("missing ), unterminated subpattern",
-re.error: missing ), unterminated subpattern at position 0
+11-08 00:16:41 replicate_layout.action_replicate_layout 305:Plugin executed on: 'linux'
+11-08 00:16:41 replicate_layout.action_replicate_layout 306:Plugin executed with python version: '3.8.5 (default, Jul 28 2020, 12:59:40) \n[GCC 9.3.0]'
+11-08 00:16:41 replicate_layout.action_replicate_layout 307:KiCad build version: 5.99.0-unknown-7bc83b8c4~104~ubuntu20.04.1
+11-08 00:16:41 replicate_layout.action_replicate_layout 308:Replicate layout plugin version: 68 started
+11-08 00:16:41 replicate_layout.action_replicate_layout 319:wx top level windows: WindowList: [<wx._core.Frame object at 0x7f10542155e0>, <wx._core.Frame object at 0x7f1054215c10>, <wx._core.Frame object at 0x7f1054215ca0>, <wx._core.Frame object at 0x7f1054215d30>, <wx._core.Frame object at 0x7f1054215dc0>, <wx._core.Frame object at 0x7f1054215e50>, <length_stats.action_length_stats.LengthStatsDialog object at 0x7f107508a160>, <length_stats.action_length_stats.LengthStatsDialog object at 0x7f1054200820>, <length_stats.action_length_stats.LengthStatsDialog object at 0x7f10542008b0>, <length_stats.action_length_stats.LengthStatsDialog object at 0x7f1054215550>]

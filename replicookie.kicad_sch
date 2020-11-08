@@ -99,9 +99,9 @@
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
 
-  (text "Fabrication Notes:\nJLC2313 Stackup\nControlled Impedance\n1.2mm thickness\n4 layers"
+  (text "Fabrication Notes:\nJLC2313 Stackup\nControlled Impedance\n1.6mm thickness\n4 layers"
     (at 171.45 252.73 0)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (effects (font (size 1.27 1.27)) (justify left bottom))
   )
 
   (symbol (lib_id "Mechanical:MountingHole") (at 330.2 179.07 0) (unit 1)
@@ -768,10 +768,10 @@
       (reference "R407") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/0f4efdfd-e05f-4498-9f56-5655a2aa694e/79036b6b-475c-44d7-a7ca-fe99da9a6172"
-      (reference "R408") (unit 1) (value "75") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R408") (unit 1) (value "75") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/0f4efdfd-e05f-4498-9f56-5655a2aa694e/c853c170-907e-43af-aaeb-a4fc1b2d0ba3"
-      (reference "R409") (unit 1) (value "75") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R409") (unit 1) (value "75") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/0f4efdfd-e05f-4498-9f56-5655a2aa694e/231be371-6880-4b4b-b001-73c9ea927a9c"
       (reference "U401") (unit 1) (value "MIC23050-4YML") (footprint "Package_DFN_QFN:Micrel_MLF-8-1EP_2x2mm_P0.5mm_EP0.8x1.3mm_ThermalVias")
@@ -833,6 +833,9 @@
     (path "/5305719f-293c-4859-8d79-7c90ef688f80/a3dc2c13-e212-4716-83d3-270c88374b15"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
+    (path "/5305719f-293c-4859-8d79-7c90ef688f80/df8229cb-a65e-4af6-9ee6-90a46aa18d62"
+      (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
+    )
     (path "/5305719f-293c-4859-8d79-7c90ef688f80/ce57fb03-14c3-48af-bba7-d81629a13138"
       (reference "C501") (unit 1) (value "0.01u") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
@@ -867,13 +870,13 @@
       (reference "J502") (unit 1) (value "USB_A_Stacked") (footprint "Connector_USB:USB_A_Wuerth_61400826021_Horizontal_Stacked")
     )
     (path "/5305719f-293c-4859-8d79-7c90ef688f80/c9ead347-2847-438d-92b2-370130e7556c"
-      (reference "R501") (unit 1) (value "8.06k 1%") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R501") (unit 1) (value "8.06k 1%") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
     )
     (path "/5305719f-293c-4859-8d79-7c90ef688f80/fee2918f-c5a5-4c16-9140-d1198bfe33bc"
-      (reference "R502") (unit 1) (value "10k 1/16W") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R502") (unit 1) (value "10k 1/16W") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/5305719f-293c-4859-8d79-7c90ef688f80/85ac89e3-0c3e-4017-a8b5-ee14bf113dc8"
-      (reference "R503") (unit 1) (value "12k") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R503") (unit 1) (value "12k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/5305719f-293c-4859-8d79-7c90ef688f80/fbbfd7cc-e774-46c1-a77d-e7deafcf8572"
       (reference "U501") (unit 1) (value "ASDMB-24.000MHz-C") (footprint "Oscillator:Oscillator_SMD_Abracon_ASDMB-4Pin_2.5x2.0mm")
@@ -1020,7 +1023,7 @@
       (reference "J804") (unit 1) (value "Conn_01x08_Female") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical")
     )
     (path "/971e0851-a066-446a-b5f1-0785f648a61b/181950cf-beee-43fe-8571-9ed4ec17b34b/2bb88357-aa50-40b1-8b1f-13dc3065c09c"
-      (reference "R801") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R801") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/971e0851-a066-446a-b5f1-0785f648a61b/6f55403d-4902-42f6-adb9-8a6393c8e1b6/5f68266c-c097-4438-8cd4-f8c7e4cf4aee"
       (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
@@ -1056,7 +1059,7 @@
       (reference "J904") (unit 1) (value "Conn_01x08_Female") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical")
     )
     (path "/971e0851-a066-446a-b5f1-0785f648a61b/6f55403d-4902-42f6-adb9-8a6393c8e1b6/2bb88357-aa50-40b1-8b1f-13dc3065c09c"
-      (reference "R901") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R901") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/971e0851-a066-446a-b5f1-0785f648a61b/7ca0db7d-f78e-455c-bdaf-4b064036b0f7/5f68266c-c097-4438-8cd4-f8c7e4cf4aee"
       (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
@@ -1092,7 +1095,7 @@
       (reference "J1004") (unit 1) (value "Conn_01x08_Female") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical")
     )
     (path "/971e0851-a066-446a-b5f1-0785f648a61b/7ca0db7d-f78e-455c-bdaf-4b064036b0f7/2bb88357-aa50-40b1-8b1f-13dc3065c09c"
-      (reference "R1001") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R1001") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/971e0851-a066-446a-b5f1-0785f648a61b/95009eea-c7a5-4a40-8ea3-ac70d337d508/5f68266c-c097-4438-8cd4-f8c7e4cf4aee"
       (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
@@ -1128,7 +1131,7 @@
       (reference "J1104") (unit 1) (value "Conn_01x08_Female") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical")
     )
     (path "/971e0851-a066-446a-b5f1-0785f648a61b/95009eea-c7a5-4a40-8ea3-ac70d337d508/2bb88357-aa50-40b1-8b1f-13dc3065c09c"
-      (reference "R1101") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R1101") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/971e0851-a066-446a-b5f1-0785f648a61b/2ea046c7-8857-48bb-96ac-54e57eae1f45/5f68266c-c097-4438-8cd4-f8c7e4cf4aee"
       (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
@@ -1164,7 +1167,7 @@
       (reference "J1204") (unit 1) (value "Conn_01x08_Female") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical")
     )
     (path "/971e0851-a066-446a-b5f1-0785f648a61b/2ea046c7-8857-48bb-96ac-54e57eae1f45/2bb88357-aa50-40b1-8b1f-13dc3065c09c"
-      (reference "R1201") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R1201") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/971e0851-a066-446a-b5f1-0785f648a61b/dad65ed1-b6cc-49d3-bc21-131408e3a266/5f68266c-c097-4438-8cd4-f8c7e4cf4aee"
       (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
@@ -1200,7 +1203,7 @@
       (reference "J1304") (unit 1) (value "Conn_01x08_Female") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical")
     )
     (path "/971e0851-a066-446a-b5f1-0785f648a61b/dad65ed1-b6cc-49d3-bc21-131408e3a266/2bb88357-aa50-40b1-8b1f-13dc3065c09c"
-      (reference "R1301") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R1301") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/971e0851-a066-446a-b5f1-0785f648a61b/a868f347-103c-405d-99d9-1978ab5c8368/5f68266c-c097-4438-8cd4-f8c7e4cf4aee"
       (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
@@ -1236,7 +1239,7 @@
       (reference "J1404") (unit 1) (value "Conn_01x08_Female") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical")
     )
     (path "/971e0851-a066-446a-b5f1-0785f648a61b/a868f347-103c-405d-99d9-1978ab5c8368/2bb88357-aa50-40b1-8b1f-13dc3065c09c"
-      (reference "R1401") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R1401") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/971e0851-a066-446a-b5f1-0785f648a61b/8428d28e-cebe-482b-8d95-8110e6eb37c2/5f68266c-c097-4438-8cd4-f8c7e4cf4aee"
       (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
@@ -1272,7 +1275,7 @@
       (reference "J1504") (unit 1) (value "Conn_01x08_Female") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical")
     )
     (path "/971e0851-a066-446a-b5f1-0785f648a61b/8428d28e-cebe-482b-8d95-8110e6eb37c2/2bb88357-aa50-40b1-8b1f-13dc3065c09c"
-      (reference "R1501") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R1501") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
   )
 )

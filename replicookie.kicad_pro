@@ -405,13 +405,44 @@
           "/ETHERNET.TXD2",
           "/ETHERNET.TXD3",
           "/ETHERNET.TX_CLK",
-          "/ETHERNET.TX_CTL"
+          "/ETHERNET.TX_CTL",
+          "/USB.DATA2",
+          "/USB.DATA3",
+          "/USB.DATA4",
+          "/USB.DATA6",
+          "/USB.DATA7",
+          "/USB.DIR",
+          "/USB.NXT",
+          "/USB.STP"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.146812,
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
+        "via_diameter": 0.508,
+        "via_drill": 0.2032,
+        "wire_width": 6.0
+      },
+      {
+        "bus_width": 6.0,
+        "clearance": 0.2032,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "50 Ohm Inner Layer",
+        "nets": [
+          "/USB.CLK",
+          "/USB.DATA0",
+          "/USB.DATA1",
+          "/USB.DATA5"
+        ],
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.131318,
+        "via_diameter": 0.508,
+        "via_drill": 0.2032,
         "wire_width": 6.0
       },
       {
@@ -505,7 +536,7 @@
   },
   "sheets": [
     [
-      "2ecc37b4-a5a1-47a9-9613-2397fd35f45a",
+      "f5170c54-9e6f-423b-9b3b-7f74566a1226",
       ""
     ],
     [
