@@ -2253,6 +2253,12 @@
       (property "ki_description" "4MHz PWM Buck Regulator with HyperLight Load Switching Scheme, 1.2V Fixed Output Voltage" (id 4) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
+      (symbol "MIC23050-4YML_0_0"
+        (pin power_in line (at 0 -10.16 90) (length 2.54)
+          (name "EP_GND" (effects (font (size 1.27 1.27))))
+          (number "9" (effects (font (size 1.27 1.27))))
+        )
+      )
       (symbol "MIC23050-4YML_1_1"
         (rectangle (start -7.62 7.62) (end 7.62 -7.62)
           (stroke (width 0.3048)) (fill (type background))
@@ -2288,12 +2294,6 @@
         (pin power_in line (at 2.54 -10.16 90) (length 2.54)
           (name "PGND" (effects (font (size 1.27 1.27))))
           (number "8" (effects (font (size 1.27 1.27))))
-        )
-      )
-      (symbol "MIC23050-4YML_0_0"
-        (pin power_in line (at 0 -10.16 90) (length 2.54)
-          (name "EP_GND" (effects (font (size 1.27 1.27))))
-          (number "9" (effects (font (size 1.27 1.27))))
         )
       )
     )
@@ -2450,8 +2450,8 @@
   (junction (at 327.66 147.32) (diameter 1.016) (color 0 0 0 0))
   (junction (at 330.2 147.32) (diameter 1.016) (color 0 0 0 0))
 
-  (no_connect (at 208.28 134.62))
   (no_connect (at 208.28 185.42))
+  (no_connect (at 208.28 134.62))
 
   (bus_entry (at 114.3 129.54) (size 2.54 2.54)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
